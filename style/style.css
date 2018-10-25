@@ -1,0 +1,40 @@
+body {
+    background: #eceff1;
+}
+
+nav.navbar {
+    background: #212121;
+}
+
+
+.page-footer {
+	color: #fff;
+    background: #212121;
+    padding: 25px 0px 25px 0px;
+}
+
+.panel-heading {
+    background: #fff;
+}
+
+a.navitem {
+	color: #fff !important;
+}
+
+a.navbar-brand {
+	color: #fff !important;
+}
+
+a.hover {
+	color: #fff !important;
+}
+
+div.panel-heading {
+	background-color: #fff !important;
+}
+
+img.wrap {
+	float: left;
+	margin: 10px;
+
+}
