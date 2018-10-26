@@ -5,22 +5,38 @@
 	<title>Web Visualization - Cloudiness</title>
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="styles/styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="scripts/include.js"></script>
 </head>
 <body>
-<!-- Nav element include --!>
+<!-- Nav element include -->
 <div w3-include-html="nav.html"></div>
 
-<!-- Body --!>
+<!-- Body -->
+<main class="container"> 
+<div class="row panel panel-default">
+<!--First Section-->
+	<div class="col-md-12 panel-heading">
+		<div class="box">
+			<h1 class="panel-title">Cloudiness</h1>
+			<div class="panel-body">
+				<p>
+					<img alt="plot of cloudiness" src="images/cloudiness.png" /> 
+				</p>
+				<p>
+					The project involved reviewing the dataset, and using Matplotlib to generate images of various weather aspects including temperature, humidity, cloudiness, and wind speed, plotted using latitude for cities. 
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+</main> 
+<!--Body end -->
 
 
-
-<!--Body end --!>
-
-<!-- Footer element include --!>
+<!-- Footer element include -->
 <div w3-include-html="footer.html"></div>
 <script>
 includeHTML();
