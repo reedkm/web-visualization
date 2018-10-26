@@ -27,6 +27,11 @@ nav.navbar {
     border-bottom: 0px;
 }
 
+.panel-body {
+	padding: 0px 0px 0px 0px;
+
+}
+
 a.navitem {
 	color: #fff !important;
 }
@@ -49,8 +54,7 @@ img.wrap {
 }
 
 img {
-	display: block;
-	max-width: 90%;
+	max-width: 95%;
 	height: auto;
 }
 
@@ -69,4 +73,42 @@ h1 {
 h3 {
 	text-align: center !important;
 	margin-bottom: 10px !important;
+}
+
+/* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
+@media (min-width: 1060px) {
+   img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+	.vis {
+	padding: 0px 0px 0px 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+}
+
+@media (min-width: 765px) {
+   img {
+	display: block;
+	max-width: 85%;
+	height: auto;
+}
+}
+
+@media (min-width: 1000px) {
+   img {
+	display: block;
+	max-width: 70%;
+	height: auto;
+}
+}
+
+@media (min-width: 1230px) {
+   img {
+	display: block;
+	max-width: 80%;
+	height: auto;
+}
 }
