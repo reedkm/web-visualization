@@ -2,10 +2,19 @@ body {
     background: #eceff1;
 }
 
+main.container {
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 1200px;
+}
+
 nav.navbar {
     background: #212121;
 }
 
+.navbar-right {
+	margin-right: 10em;
+}
 
 .page-footer {
 	color: #fff;
@@ -15,6 +24,7 @@ nav.navbar {
 
 .panel-heading {
     background: #fff;
+    border-bottom: 0px;
 }
 
 a.navitem {
@@ -36,5 +46,11 @@ div.panel-heading {
 img.wrap {
 	float: left;
 	margin: 10px;
-
 }
+
+img {
+	display: block;
+	max-width: 90%;
+	height: auto;
+}
+
