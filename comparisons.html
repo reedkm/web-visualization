@@ -3,38 +3,46 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Web Visualization - Comparisons</title>
-	<!-- Bootstrap -->
+<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles/styles.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="scripts/include.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+	</script>
+	<script src="scripts/include.js">
+	</script>
 </head>
 <body>
 <!-- Nav element include -->
 <div w3-include-html="nav.html"></div>
 
 <!-- Body -->
-<main class="container"> 
+<main class="container">
 <div class="row panel panel-default">
-
 <!--Comparisons Plots-->
 	<div class="col-md-12 panel-heading">
 		<div class="box">
-			<h1 class="panel-title">
-				Comparisons 
-			</h1>
-			<p>
-				Click the plots below to get an in-depth analysis.
-			</p>
+			<h1 class="panel-title">Comparisons</h1>
+			<p>Click the plots below to get an in-depth analysis.</p>
 			<div class="panel-body">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<a href="temperature.html"><img class="home img-responsive" alt="plot of max temperatures" src="images/max-temp.png" /></a> <a href="humidity.html"><img class="home img-responsive" alt="plot of humidity" src="images/humidity.png" /></a> 
+							<div class="mini-box">
+								<a href="temperature.html"><img class="home img-responsive" alt="plot of max temperatures" src="images/max-temp.png" /></a>
+							</div>
+							<div class="mini-box">
+								<a href="humidity.html"><img class="home img-responsive" alt="plot of humidity" src="images/humidity.png" /></a>
+							</div>
 						</div>
 						<div class="col-md-6">
-							<a href="cloudiness.html"><img class="home img-responsive" alt="plot of cloudiness" src="images/cloudiness.png" /></a> <a href="wind.html"><img class="home img-responsive" alt="plot of wind speed" src="images/wind-speed.png" /></a>
+							<div class="mini-box">
+								<a href="cloudiness.html"><img class="home img-responsive" alt="plot of cloudiness" src="images/cloudiness.png" /></a>
+							</div>
+							<div class="mini-box">
+								<a href="wind.html"><img class="home img-responsive" alt="plot of wind speed" src="images/wind-speed.png" /></a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -42,13 +50,15 @@
 		</div>
 	</div>
 </div>
-</main> 
+</main>
 <!--Body end -->
+
 <!-- Footer element include -->
 <div w3-include-html="footer.html"></div>
 <script>
-includeHTML();
-</script> 
+	includeHTML();
+</script>
 
 </body>
 </html>
+
